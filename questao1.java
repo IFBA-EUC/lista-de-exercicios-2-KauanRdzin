@@ -28,8 +28,8 @@ public class Quest_01 {
 
             x1 = (-b + Math.sqrt(delta))/(2*a);
             x2 = (-b - Math.sqrt(delta))/(2*a);
-            System.out.printf("Primeira raiz= %f \n", x1);
-            System.out.printf("Segunda raiz= %f \n", x2);
+            System.out.printf("Raiz de x primeira linha= %f \n", x1);
+            System.out.printf("Raiz de x segunda linha= %f \n", x2);
 
         }else if(delta == 0){
 
@@ -38,7 +38,7 @@ public class Quest_01 {
 
         }else{
 
-            System.out.println("Não existe nenhuma raiz para essa equação!");
+            System.out.println("Não existe raiz para essa equação!");
             
         }
 
