@@ -8,7 +8,7 @@ public class Quest_03 {
         Scanner teclado = new Scanner(System.in);
         double x1, y1, x2, y2, distancia;
 
-        /*  O defeito é que a divisão de inteiros, em java, sempre geram inteiros, logo, a divisão 1/2, que gera o 
+        /*  O defeito do programa é que a divisão de inteiros, em java, sempre geram inteiros, logo, a divisão 1/2, que gera o 
             número real 0.5, é arredondado para 0, e todo número elevado a 0 resulta em 1.                                                                           */
  
         System.out.println("Entre com as coordenadas x e y dos pontos nesta ordem:");
